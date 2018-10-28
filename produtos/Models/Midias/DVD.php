@@ -1,5 +1,9 @@
 <?php
-    include_once 'Produto.php';
+    // include_once 'Produto.php';
+
+    namespace Models\Midias;
+
+    use \Models\Produto;
 
     class DVD extends Produto {
         private $titulo;

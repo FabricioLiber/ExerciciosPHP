@@ -8,12 +8,12 @@
     </head>
     <body>
         <?php
-
-            include_once 'Leite.php';
-            include_once 'DVD.php';
+            use \Models\Midias\DVD;
+            use \Models\Pereciveis\Leite;
+            include_once 'autoload.php';
             try {
-                $leite = new Leite(1, 2.50, 'Leite', 'Lebom', 2.3, '2018-10-01');
                 $dvd = new DVD(2, 20, 'DVD', 'The Hangover', 2016);
+                $leite = new Leite(1, 2.50, 'Leite', 'Lebom', 2.3, '2018-10-01');
             } catch (InformacaoNulaException $e) {
                 echo $e->getMessage();
             }      

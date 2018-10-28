@@ -1,4 +1,6 @@
 <?php
+    namespace Traits;
+
     trait Nomeavel {
         private $nome;
 

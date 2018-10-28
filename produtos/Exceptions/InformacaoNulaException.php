@@ -1,4 +1,5 @@
 <?php
+    namespace Exceptions;
 
     class InformacaoNulaException extends Exception {
         function __construct ($msg) {
