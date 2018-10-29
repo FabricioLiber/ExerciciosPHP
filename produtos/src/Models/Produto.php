@@ -1,12 +1,12 @@
 <?php
     // include_once 'InformacaoNulaException.php';
     // include_once 'Nomeavel.php';
-    namespace Models;
+    namespace loja\Models;
 
     abstract class Produto {
         private $codigo;
         private $preco;
-        use \Traits\Nomeavel;
+        use \loja\Traits\Nomeavel;
         
         function __construct (int $codigo, float $preco, string $nome) {
             if ($codigo == null)

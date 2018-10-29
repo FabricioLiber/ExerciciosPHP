@@ -1,5 +1,5 @@
 <?php
-    namespace Models\Pereciveis;
+    namespace loja\Models\Pereciveis;
 
     interface Perecivel {
         function estaVencido() : bool;

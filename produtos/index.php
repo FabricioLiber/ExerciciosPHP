@@ -8,8 +8,8 @@
     </head>
     <body>
         <?php
-            use \Models\Midias\DVD;
-            use \Models\Pereciveis\Leite;
+            use loja\Models\Midias\DVD;
+            use loja\Models\Pereciveis\Leite;
             include_once 'autoload.php';
             try {
                 $dvd = new DVD(2, 20, 'DVD', 'The Hangover', 2016);

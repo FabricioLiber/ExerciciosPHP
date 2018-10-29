@@ -1,5 +1,5 @@
 <?php
-    namespace Traits;
+    namespace loja\Traits;
 
     trait Nomeavel {
         private $nome;

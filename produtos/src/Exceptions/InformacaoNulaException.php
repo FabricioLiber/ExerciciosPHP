@@ -1,5 +1,5 @@
 <?php
-    namespace Exceptions;
+    namespace loja\Exceptions;
 
     class InformacaoNulaException extends Exception {
         function __construct ($msg) {

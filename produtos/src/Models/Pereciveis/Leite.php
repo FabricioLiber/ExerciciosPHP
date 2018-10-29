@@ -1,9 +1,9 @@
 <?php
     // include_once 'Produto.php';
     // include_once 'Perecivel.php';
-    namespace Models\Pereciveis;
+    namespace loja\Models\Pereciveis;
 
-    use \Models\Produto;
+    use loja\Models\Produto;
     
     class Leite extends Produto implements Perecivel {
         private $marca;

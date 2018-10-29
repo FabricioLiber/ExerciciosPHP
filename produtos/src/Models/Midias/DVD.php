@@ -1,10 +1,11 @@
 <?php
     // include_once 'Produto.php';
 
-    namespace Models\Midias;
+    namespace loja\Models\Midias;
 
-    use \Models\Produto;
-
+    use loja\Models\Produto;
+    use \loja\Exceptions\InformacaoNulaException;
+    
     class DVD extends Produto {
         private $titulo;
         private $ano;
