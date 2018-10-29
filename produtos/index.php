@@ -10,7 +10,9 @@
         <?php
             use loja\Models\Midias\DVD;
             use loja\Models\Pereciveis\Leite;
-            include_once 'autoload.php';
+            // include_once 'autoload.php';
+            require_once __DIR__ . '/vendor/autoload.php';
+
             try {
                 $dvd = new DVD(2, 20, 'DVD', 'The Hangover', 2016);
                 $leite = new Leite(1, 2.50, 'Leite', 'Lebom', 2.3, '2018-10-01');
